@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos de la psicopedagogía',
+    numeroUnidad: '2',
+    tituloUnidad: 'Contextos sociales y su impacto en el aprendizaje',
   },
   menuPrincipal: {
     menu: [
@@ -31,7 +31,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos de la psicopedagogía',
+        titulo: 'Contextos sociales y su impacto en el aprendizaje',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -39,35 +39,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Desarrollo cognitivo y socioemocional',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Roles en la teoría cognitiva',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'La enseñanza y evaluación cognitiva',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Desarrollo socioemocional',
-            hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo:
-          'Teorías del aprendizaje y su relación con el desarrollo psicopedagógico',
+        titulo: 'Diversidad cultural en los entornos educativos',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -108,152 +80,133 @@ export default {
   },
   referencias: [
     {
+      referencia: 'Adam Smith. (1776). La riqueza de las naciones. Titivillus.',
+      link: '',
+    },
+    {
       referencia:
-        'Alanís, P., Gutiérrez, D. (2011). Los estilos de aprendizaje en estudiantes de telesecundaria.',
+        'Álvaro, D. (2010). Los conceptos de "comunidad" y "sociedad" de Ferdinand Tönnies. Papeles del CEIC. International Journal on Collective Identity Research, (1), 1-24.',
+      link: '',
+    },
+    {
+      referencia:
+        'Araya, R. (2016). Los diez pilares de la socioeconomía. Academia.edu.',
       link:
-        'file:///C:/Users/smd/Downloads/DialnetLosEstilosDeAprendizajeEnEstudiantesDeTelesecundar-4034711.pdf',
+        'https://www.academia.edu/30665321/LOS_DIEZ_PILARES_DE_LA_SOCIOECONOM%C3%8DA',
     },
     {
       referencia:
-        'Caro, E., Monroy, M. (2008). Relación de los Ambientes Hipertextuales de Aprendizaje Gráfico y Sonoro, con los Estilos de Aprendizaje Verbal y Visual.',
-      link: 'http://www.redalyc.org/html/1331/133115027013/index.html',
-    },
-    {
-      referencia:
-        'Chávez Rodríguez, J., Deler Ferrera, G., Permuy Gonzalez, L. D., & Suarez Lorenzo, A. (2007). Principales corrientes y tendencias a inicios del siglo XXI de la pedagogía y la didáctica. INSTITUTO CENTRAL DE CIENCIAS PEDAGÓGICAS.',
+        'Gamboa, S. (2022). Cifras de Kantar indicaron que la población estrato 1 en Colombia corresponde al 21%. La Republica.',
       link:
-        'https://books.google.com.co/books?id=-xcaEAAAQBAJ&printsec=frontcover&hl=es',
+        'https://www.larepublica.co/empresas/kantar-da-a-conocer-cifras-relevantes-en-el-marco-del-dia-mundial-del-consumidor-3322740',
     },
     {
       referencia:
-        'Cristina Ricci. (2021). Investigación psicopedagógica e investigación en Psicopedagogía: diferenciación necesaria desde una perspectiva epocal, de la complejidad, disciplinar, profesional, inter y transdisciplinar. Revista Perspectivas metodológicas, 21, 1-22.',
-      link: 'https://revistas.unla.edu.ar/epistemologia/article/view/3442/1726',
+        'Garcia, M. (2023). Elementos esenciales de una socioeconomía del desarrollo. revistas unal, 42(379-402).',
+      link: 'https://doi.org/10.15446/cuad.econ.v42n89.96493',
     },
     {
       referencia:
-        'Guilar, M. E. (2009). Las ideas de Bruner: De la revolución cognitiva a la revolución cultural. Educere, 13(44), 235-241.',
+        'Hernández Pérez, A. y Hernández Pérez, A. (2014). Economía. México, D.F, Mexico: Editorial Digital UNID.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/41178?page=3',
+    },
+    {
+      referencia:
+        'Lancheros, S. & Mora, A. (2022). La financiación de la educación superior en Colombia: crisis y disputas en el marco de la pandemia. redalyc, 56(49-65).',
+      link: 'https://doi.org/10.30578/nomadas.n56a3',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional. (2021). Escuela nueva. Mineducación.',
       link:
-        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-49102009000100028',
+        'https://www.mineducacion.gov.co/portal/Preescolar-basica-y-media/Modelos-Educativos-Flexibles/340089:Escuela-Nueva',
     },
     {
       referencia:
-        'Hilda Fingermann. (2015). ¿Qué son los enfoques pedagógicos? La Guía.',
+        'Ministerio de las culturas. (2024). Plan Nacional Cultural. Ministerio de cultura.',
       link:
-        'https://educacion.laguia2000.com/ensenanza/que-son-los-enfoques-pedagogicos',
+        'https://www.mincultura.gov.co/despacho/plan-nacional-de-cultura/Documents/PLAN%20NACIONAL%20CULTURA_26-07-2024.pdf',
     },
     {
       referencia:
-        'Juan Antonio López, A. F. (2007). La sociedad y economía del conocimiento: el reto para la no exclusión de los adultos. Granada, España.',
-      link:
-        'https://revistaseug.ugr.es/index.php/publicaciones/article/view/2275/2394',
+        'Oficina de la UNESCO en San José. (2012). Cultura y nuestros derechos culturales. UNESDOC.',
+      link: 'https://unesdoc.unesco.org/ark:/48223/pf0000228345',
     },
     {
       referencia:
-        'Ortiz, A. (2013). Modelos pedagógicos y teorías del aprendizaje. Magdalena, Colombia.',
-      link:
-        'https://www.researchgate.net/publication/315835198_Modelos_Pedagogicos_y_Teorias_del_Aprendizaje',
+        'Polanyi, K. (2003). La gran transformación. Los orígenes políticos y económicos de nuestro tiempo. Fondo de Cultura Económica.',
+      link: '',
     },
     {
       referencia:
-        'Penã Rodriguez, F., & Acevedo Zapata, S. (2011). El campo de la psicopedagogía: Discusiones, procesos de formación, identidad y prácticas. Revista Brasileira de Orientação Profissional, 12(1), 127-132.',
-      link: 'https://www.redalyc.org/pdf/2030/203018660014.pdf',
+        'Rodríguez, J., Ferrera, G., González D., & Lorenzo, A. (2007). Principales corrientes y tendencias a inicios del siglo XXI de la Pedagogía y la Didáctica. Instituto Central de Ciencias Pedagógicas.',
+      link: '',
     },
     {
       referencia:
-        'Rafael Bisquerra. (1996). Orígenes y desarrollo de la orientación psicopedagógica. Narcea S.A de Ediciones.',
-      link:
-        'http://www.uvirtual.net/sites/default/files/2016-11/bXVdos-Unidad01_LC_01_BISQUERRA.pdf',
+        'TV UNAM. (2019, octubre 4). ¿Qué es cultura?. [Video]. YouTube.',
+      link: 'https://youtu.be/U66tgsRtnj8?si=Pz2o2UBkPZbIqHqx',
     },
     {
-      referencia:
-        'Rafel Bisquerra. (2014). Los orígenes de la psicopedagogía: El concepto y el término. Revista Española de Orientación y Psicopedagogía, 13, 17-29.',
-      link: 'https://doi.org/10.5944/reop.vol.13.num.1.2002.11583',
-    },
-    {
-      referencia:
-        'Seijo, C. B. (2012). El cerebro triuno y la inteligencia ética: matriz fundamental de la inteligencia multifocal. Revista Praxis, 8, 147-165.',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=5907276',
-    },
-    {
-      referencia:
-        'Tutaya, S. G. (2019). Funciones de la psicopedagogía: como una disciplina importante para el aprendizaje. Chincha, Perú.',
-      link:
-        'https://repositorio.untumbes.edu.pe/handle/20.500.12874/1431?show=full',
-    },
-    {
-      referencia:
-        'Vargas Silva, F. A. (2019). Tendencias, corrientes y modelos pedagógicos: relaciones, semejanzas y diferencias. (Una mirada desde Occidente) (1 ed.). Tolima, Sello Editorial Universidad del Tolima.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/228354?page=136',
+      referencia: 'Valderrama. (s.f.). El panorama de la gestión cultural.',
+      link: 'https://www.flickr.com/photos/eseatomo/42037676085',
     },
   ],
   glosario: [
     {
-      termino: 'Cognitivo',
-      significado: 'Perteneciente o relativo al conocimiento',
+      termino: 'Comunidad',
+      significado:
+        'Es un grupo de personas que comparten un sentido de pertenencia, identidad y objetivos comunes. Estas personas interactúan entre sí de manera regular y establecen relaciones sociales basadas en la proximidad geográfica, intereses compartidos, valores comunes o un vínculo histórico.',
     },
     {
-      termino: 'Didáctica',
+      termino: 'Contextos',
       significado:
-        'Propio, adecuado o con buenas condiciones para enseñar o instruir',
+        'Son las circunstancias, situaciones o entornos en los que ocurren los hechos. Es decir, el marco de referencia que rodea un evento o una persona.',
+    },
+    {
+      termino: 'Cultura',
+      significado:
+        'Es el conjunto de conocimientos, creencias, arte, leyes, costumbres, hábitos y valores que caracterizan a un grupo social. Se transmite de generación en generación y define la forma de vida de un pueblo.',
+    },
+    {
+      termino: 'Desigualdad',
+      significado:
+        'Es la diferencia en las oportunidades, condiciones de vida y acceso a recursos entre diferentes grupos sociales. Puede ser económica, social, política o de otro tipo.',
     },
     {
       termino: 'Diversidad',
-      significado: 'Variedad, desemejanza, diferencia',
-    },
-    {
-      termino: 'Emociones',
       significado:
-        'Alteraciones del ánimo intensa y pasajera, agradable o penosa, que va acompañada de cierta conmoción somática',
+        'Hace referencia a la variedad de características que existen entre las personas, como la raza, el género, la edad, la orientación sexual, la religión, la discapacidad, entre otras.',
     },
     {
-      termino: 'Estadios',
-      significado: 'Período o fase de un proceso',
-    },
-    {
-      termino: 'Inteligencia',
+      termino: 'Economía',
       significado:
-        'Capacidad de entender o comprender. Capacidad de resolver problemas',
+        'Es el estudio de la producción, distribución y consumo de bienes y servicios. Se refiere a la forma en que una sociedad organiza sus recursos para satisfacer las necesidades de sus miembros.',
     },
     {
-      termino: 'Interdisciplinariedad',
+      termino: 'Exclusión',
       significado:
-        'Dicho de un estudio o de otra actividad: que se realiza con la cooperación de varias disciplinas',
+        'Es la acción de dejar fuera o marginar a una persona o grupo de personas de una sociedad o de un determinado ámbito. Puede ser social, económica, política o cultural.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Ruralidad',
       significado:
-        'Facultad psíquica por medio de la cual se retiene y recuerda el pasado',
+        'Hace referencia a las zonas rurales, es decir, las áreas geográficas poco densamente pobladas y con predominio de actividades agrícolas y ganaderas. Se caracteriza por un estilo de vida y una cultura diferentes a las de las zonas urbanas.',
     },
     {
-      termino: 'Modelo',
+      termino: 'Sociedad',
       significado:
-        'Arquetipo o punto de referencia para imitarlo o reproducirlo',
+        'Es un grupo de personas que comparten una cultura común y que interactúan entre sí. Se organizan en estructuras sociales y tienen un sistema de valores y normas que regulan su comportamiento.',
     },
     {
-      termino: 'Pensamiento',
+      termino: 'Socioeconómico',
       significado:
-        'Conjunto de ideas propias de una persona, de una colectividad o de una época',
+        'Se refiere a la interacción entre los factores sociales y económicos que influyen en la vida de las personas. Por ejemplo, el nivel educativo, el ingreso económico y la ocupación son factores socioeconómicos.',
     },
     {
-      termino: 'Psicología',
+      termino: 'Vulnerabilidad',
       significado:
-        'Ciencia o estudio de la mente y de la conducta en personas o animales',
-    },
-    {
-      termino: 'Psicopedagogía',
-      significado:
-        'Rama de la psicología que se ocupa de los fenómenos de orden psicológico para llegar a una formulación más adecuada de los métodos didácticos y pedagógicos',
-    },
-    {
-      termino: 'Socioemocional',
-      significado:
-        'Conductas aprendidas que llevamos a cabo cuando interactuamos con otras personas y que nos son útiles para expresar nuestros sentimientos, actitudes, opiniones y defender nuestros derechos',
-    },
-    {
-      termino: 'Teoría',
-      significado:
-        'Conocimiento especulativo considerado con independencia de toda aplicación',
+        'Susceptibilidad a sufrir daños o perjuicios. En el contexto educativo, puede referirse a la vulnerabilidad de ciertos estudiantes a experimentar dificultades de aprendizaje o exclusión.',
     },
   ],
   complementario: [

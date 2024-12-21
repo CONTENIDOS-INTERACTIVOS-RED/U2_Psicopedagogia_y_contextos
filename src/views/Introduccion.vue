@@ -3,17 +3,17 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    p.mb-4 Bienvenidos a la asignatura Psicopedagogía y contextos sociales, diseñada para proporcionar herramientas teóricas que les permitan desarrollar acciones pedagógicas y didácticas efectivas. Este curso busca impactar positivamente en sus futuros estudiantes y potenciar sus propias habilidades mediante estrategias psicopedagógicas.
-    .row
-      .col-12.col-xl-7.d-flex.flex-column
-        .d-flex.align-items-start.bg-rosa.p-4.mb-4(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-1.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") En la unidad 1, exploraremos temas como la definición de psicopedagogía, el desarrollo cognitivo y la influencia del contexto socioemocional. También abordaremos teorías del aprendizaje y su relación con el desarrollo psicopedagógico, resaltando la importancia de entender los contextos sociales en el aprendizaje.
-        p Al finalizar, se espera que diseñen estrategias inclusivas que eliminen barreras y promuevan la accesibilidad en el aprendizaje, formando profesionales críticos y reflexivos capaces de responder a las demandas educativas actuales.
-      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')  
-    
+    p.mb-4 Esta unidad aborda la importancia de comprender cómo la sociedad y sus dinámicas influyen en el proceso de enseñanza-aprendizaje. Los logros académicos y personales de los estudiantes están condicionados por factores como su alimentación, acceso a recursos básicos y el contexto en el que residen. Estos elementos afectan significativamente el aprendizaje y el desarrollo personal, siendo necesario analizar cómo los entornos moldean las oportunidades educativas. 
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-rosa.p-4.mb-4
+          span El aprendizaje no ocurre en un vacío; está profundamente vinculado a las circunstancias socioeconómicas, culturales y familiares de los estudiantes. En contextos de pobreza, especialmente en zonas rurales o urbanas marginales, las carencias en infraestructura, tecnología y apoyo familiar dificultan el acceso y la calidad de la educación. Además, la cultura y las dinámicas sociales del entorno donde crece el estudiante desempeñan un papel crucial en su desarrollo personal, social y académico, planteando desafíos adicionales para el docente.
+        span El objetivo de esta unidad es sensibilizar a los futuros docentes sobre las realidades del sistema educativo, especialmente en contextos con profundas desigualdades como Colombia. Se busca proporcionar herramientas pedagógicas y didácticas que permitan a los educadores afrontar los desafíos del contexto escolar, ayudando a sus estudiantes a superar las barreras impuestas por su entorno. Con un enfoque crítico y analítico, los docentes podrán intervenir de manera objetiva y sensible, promoviendo el aprendizaje como una vía para la emancipación y el desarrollo integral de sus estudiantes.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+
+
+
     
 </template>
 

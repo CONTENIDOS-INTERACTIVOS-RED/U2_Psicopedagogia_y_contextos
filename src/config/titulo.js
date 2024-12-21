@@ -1,1 +1,1 @@
-module.exports = 'Unidad 1: Fundamentos de la psicopedagogía'
+module.exports = 'unidad 2: Contextos sociales y su impacto en el aprendizaje'

@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La psicopedagogía, como disciplina clave en el ámbito educativo, ofrece herramientas teóricas y prácticas que permiten al docente resignificar su labor en contextos diversos, abordando tanto las necesidades individuales como colectivas de los estudiantes, y promoviendo un aprendizaje inclusivo y significativo.
+    p.mb-4.mb-md-5 El aprendizaje está profundamente influenciado por los contextos sociales, económicos, culturales y políticos en los que se desarrolla. Estos factores determinan las oportunidades y barreras que enfrentan los estudiantes, afectando su acceso a recursos, métodos de enseñanza y condiciones de vida. Analizar estas interacciones permite comprender mejor los desafíos educativos y diseñar estrategias inclusivas que promuevan una formación equitativa y de calidad.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

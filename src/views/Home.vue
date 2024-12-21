@@ -12,7 +12,7 @@
               style="max-width: 672px;"
             )
           .d-block.d-lg-none.mx-auto.mb-4.mb-lg-0.col-md-8.col-lg-6.imagen-section
-            img.img-fluid.h-full(
+            img.img-fluid(
               src="@/assets/portada/banner-mobile.png"
               alt="Estudiante virtual"
               style="max-width: 672px;"
@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad 1 aborda conceptos clave de psicopedagogía, desarrollo cognitivo y socioemocional, y teorías educativas como las de Piaget, Bruner y Vygotsky. Se destacan modelos pedagógicos que promueven un aprendizaje activo y adaptativo, integrando competencias cognitivas y emocionales. La psicopedagogía, como disciplina interdisciplinaria, conecta teoría y práctica, facilitando la comprensión de procesos de enseñanza-aprendizaje y el diseño de experiencias significativas en contextos diversos, potenciando un desarrollo educativo integral.
+              p.descripcion.mb-4 El aprendizaje está siempre determinado muy múltiples factores ambientales que afectan o incentivan un desarrollo del aprendizaje en los estudiantes, factores como el económico, el contexto social y la cultura desde sus múltiples escenarios van creando una serie de posibilidades para el estudiante, que dependiendo de cómo se den y donde generen, pueden dar como resultado una serie de barreras en el aprendizaje o por el contrario un acceso a este. Es por ello que el docente debe entender la importancia de conocer y reconocer los factores culturales, sociales y económicos que impactan a la escuela y mayormente al estudiante, porque de esa observación y análisis, desarrollara las estrategias psicopedagógicas para intervenir y enfrentar las barreras socioeconómicas y culturales que pueden vivenciar los estudiantes, adaptando y ajustando los procesos de enseñanza a las necesidades propias de la cultura y situación de los estudiantes después de entender los contextos y las dinámicas que lo rodean.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Cada paso que das en el aprendizaje es una puerta abierta hacia nuevas posibilidades; cree en tu capacidad para transformar y ser transformado.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Transforma realidades a través de la educación: cada barrera es una oportunidad para cambiar vidas.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
