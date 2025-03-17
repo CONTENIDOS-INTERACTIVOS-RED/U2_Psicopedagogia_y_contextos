@@ -30,17 +30,17 @@
       .px-5.pb-md-3.py-4
         
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          <iframe width="1920" height="732" src="https://www.youtube.com/embed/cNhPpvH3hfo" title="Diversidad étnica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     h2 Diversidad lingüística
     p.mb-4 La diversidad lingüística en Colombia refleja su riqueza cultural y su pluralidad étnica. Más de 68 lenguas nativas están presentes en comunidades indígenas y afrocolombianas, destacándose como un patrimonio cultural invaluable. Estas lenguas están protegidas por el Plan Decenal de Lenguas Nativas, que promueve tanto su conservación como su enseñanza. Además, el decreto 1421 ha facilitado la inclusión de intérpretes lingüísticos indígenas en el ámbito escolar, fomentando el aprendizaje en la lengua materna y promoviendo el respeto por las costumbres y tradiciones de estas comunidades.
-     
+    p.mb-4 A continuación, se presentan los elementos clave que caracterizan la diversidad lingüística en el país:
     .row.mb-4.justify-content-center 
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-37.svg', style="width: 80px")
           p.text-bold.mb-4.text-center Lenguas nativas	
-          p.px-1.text-small.mb-0.d-flex.text-center Más de 68 lenguas preservadas y promovidas mediante programas 
+          p.px-1.text-small.mb-0.d-flex.text-center Más de 68 lenguas preservadas y promovidas mediante programas educativos.
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-38.svg', style="width: 80px")
@@ -110,7 +110,7 @@
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-45.svg', style="width: 80px")
           p.text-bold.mb-4.text-center Reconocimiento y valoración
-          p.px-1.text-small.mb-0.d-flex.text-center Fomento del respeto hacia la biodiversidad y las culturas 
+          p.px-1.text-small.mb-0.d-flex.text-center Fomento del respeto hacia la biodiversidad y las culturas relacionadas.
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-46.svg', style="width: 80px")
@@ -130,7 +130,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Desigualdades educativas 
           p.mb-5 En el documento Desigualdades educativas y barreras de acceso al aprendizaje, se abordan los factores que perpetúan las brechas educativas, como la desfinanciación, la falta de formación docente, los entornos adversos y las limitaciones del sistema educativo. Estos elementos evidencian cómo las carencias estructurales y contextuales afectan el acceso equitativo a una educación de calidad, especialmente en zonas rurales y urbanas empobrecidas.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Desigualdades educativas y barreras de acceso al aprendizaje.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> NDesigualdades educativas y barreras de acceso al aprendizaje
              
@@ -166,6 +166,10 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
@@ -176,6 +180,179 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Factores Socioeconómicos en la Educación',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué factores externos al ámbito educativo influyen en el proceso de enseñanza-aprendizaje?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo el contexto familiar influye en el aprendizaje',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La calidad de los docentes es el único aspecto que afecta el aprendizaje',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La infraestructura escolar es el único determinante del éxito educativo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Factores socioeconómicos, sociales y culturales',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'Un docente en una escuela rural observa que varios de sus estudiantes tienen dificultades para concentrarse y participar en clase. Al investigar, descubre que muchos provienen de hogares con escasos recursos económicos y enfrentan problemas de nutrición y falta de apoyo educativo en casa. ¿Cómo debería el docente abordar las barreras socioeconómicas que afectan a sus estudiantes?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Desestimar las diferencias y enfocarse solo en el contenido',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar la disciplina sin considerar su entorno',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aplicar un método uniforme para todos los alumnos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Crear estrategias educativas que se ajusten a las necesidades de los estudiantes',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué factor es crucial para entender cómo impacta el aprendizaje de los estudiantes?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El contexto social y económico en el que viven',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La duración del tiempo dedicado al estudio',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las calificaciones obtenidas en exámenes anteriores',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de tareas escolares asignadas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cómo influye la economía en la vida diaria del ser humano y en su acceso a la educación?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La economía influye en la vida diaria y en la educación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La economía solo afecta el acceso a bienes materiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La economía no tiene impacto en la educación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La economía influye en la educación, pero no en la vida diaria.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cómo deben adaptarse los procesos de enseñanza a las necesidades culturales de los estudiantes?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Los docentes deben adaptar la enseñanza a las realidades culturales y sociales de los estudiantes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Los procesos de enseñanza deben ignorar las circunstancias socioeconómicas de los estudiantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La enseñanza debe ser rígida y no adaptarse a las diferencias culturales de los estudiantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Los docentes deben centrarse únicamente en el contenido académico sin considerar la cultura.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

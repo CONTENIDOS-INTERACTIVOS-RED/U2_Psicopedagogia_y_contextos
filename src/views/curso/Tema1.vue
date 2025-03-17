@@ -229,7 +229,7 @@
       .col-12.col-lg-7(data-aos="fade-left")
         p.mb-4 Para comprender cómo estas interacciones afectan el aprendizaje, es útil analizar los aspectos clave de la economía política y su impacto en el ámbito educativo.
         AcordionA(tipo="b")
-          .div(titulo="Conceptos de paz y cultura de paz")
+          .div(titulo="Economía política")
             p Según Cesaratto y Bucchianico (2020, como se citó en García, M. 2023), analiza las condiciones formales de viabilidad económica de una formación social, considerando cómo se genera y distribuye el excedente económico (valor, precios, moneda).
           .div(titulo="Impacto de las políticas públicas")
             p Las políticas pueden mejorar la infraestructura escolar, garantizar programas de alimentación, capacitar docentes y facilitar el acceso a una educación gratuita y de calidad, especialmente en contextos desfavorecidos.
